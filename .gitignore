@@ -32,7 +32,7 @@ ehthumbs.db
 
 # Ignore compiled code and build artifacts
 /build/
-/dist/
+
 /out/
 /.next/
 /.nuxt/
