@@ -1,0 +1,72 @@
+# Ignore system and editor-specific files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.log
+
+# Ignore Node.js-related files
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore macOS directory attributes
+.metadata
+
+# Ignore IDE and text editor files
+.idea/
+.vscode/
+
+# Ignore OS-generated files
+Desktop.ini
+$RECYCLE.BIN/
+ehthumbs.db
+
+# Ignore compiled code and build artifacts
+/build/
+/dist/
+/out/
+/.next/
+/.nuxt/
+/.cache/
+/public/
+/node_modules/
+/build/
+/.storybook/
+/coverage/
+/tests/
+/docs/
+/lib/
+
+# Ignore environment-specific configuration files
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignore package-lock.json and yarn.lock (use one or the other, not both)
+package-lock.json
+yarn.lock
+
+# Ignore editor backup and autosave files
+*~
+*.bak
+
+# Ignore logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Ignore configuration files
+*.config.js
+
+# Ignore sensitive or personal information
+secrets.json
